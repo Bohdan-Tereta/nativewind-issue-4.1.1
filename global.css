@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .header-1 {
+    @apply font-new-york text-xl font-bold leading-6;
+  }
+
+  .header-2 {
+    @apply font-serif text-22 leading-[1.2];
+  }
+}

@@ -31,7 +31,7 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme} >
       <Stack >
-        <View className="bg-green-300">
+        <View className="bg-green-300 header-1">
           <Text>test</Text>
         </View>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
